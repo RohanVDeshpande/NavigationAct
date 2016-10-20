@@ -1,0 +1,19 @@
+html{
+       overflow: hidden;
+}
+body{
+       margin: 0;
+       background-color: rgb(54,181,172);
+        font-family: 'Roboto', sans-serif;
+}
+.Label{
+       position: absolute;
+       margin: 40% 40%;
+       font-size: 200%;
+       font-family: 'Roboto', sans-serif;
+       color:#34495e;
+}
+.Money{
+       position: absolute;
+       width: 25%;
+}
