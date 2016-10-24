@@ -27,15 +27,15 @@ body{
 .Mining{
        position: absolute;
        width: 15%;
-       left:9%;
-       top: 25%;
+       left:4%;
+       top: 30%;
        animation-name:MiningAnim;
        animation-duration: 10s;
        animation-iteration-count: infinite;
 }
 @keyframes MoneyTransition{
-    0%   {left:14%;top:15%;}
-    100% {left:83%;top: 7%;}
+    0%   {left:15%;top:25%;}
+    100% {left:83%;top: 15%;}
 }
 @keyframes MiningAnim{
     0%   {opacity: 0}
