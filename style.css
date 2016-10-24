@@ -3,7 +3,7 @@ html{
 }
 body{
        margin: 0;
-       background-color: rgb(54,181,172);
+       background-color: #ecf0f1;
         font-family: 'Roboto', sans-serif;
 }
 .Label{
@@ -12,8 +12,33 @@ body{
        font-size: 200%;
        font-family: 'Roboto', sans-serif;
        color:#34495e;
+       left:83%;
+       top: 7%;
 }
 .Money{
        position: absolute;
-       width: 25%;
+       width: 10%;
+       animation-name:MoneyTransition;
+       animation-duration: 20s;
+       left:83%;
+       top: 7%;
+       animation-iteration-count: infinite;
+}
+.Mining{
+       position: absolute;
+       width: 15%;
+       left:9%;
+       top: 25%;
+       animation-name:MiningAnim;
+       animation-duration: 10s;
+       animation-iteration-count: infinite;
+}
+@keyframes MoneyTransition{
+    0%   {left:14%;top:15%;}
+    100% {left:83%;top: 7%;}
+}
+@keyframes MiningAnim{
+    0%   {opacity: 0}
+    25% {opacity: 0.9}
+    100% {opacity: 1}
 }
